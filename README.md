@@ -22,3 +22,14 @@ LeetCode is a platform for practicing coding problems, preparing for technical i
    ```bash
    git clone https://github.com/your-username/leetcode-solutions.git
    cd leetcode-solutions
+
+## Direc
+
+leetcode-solutions/
+|-- Leetcode1281/
+|       |-- README.md
+|       |-- solution.java
+|-- string/
+|-- linked-list/
+|-- ...
+
