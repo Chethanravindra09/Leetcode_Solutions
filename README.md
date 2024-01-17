@@ -1,6 +1,3 @@
-Certainly! If you don't want to include the directory structure section, here's a simplified version of the README.md:
-
-```markdown
 # LeetCode Solutions
 
 Welcome to my LeetCode solutions repository! This repository contains my solutions to various LeetCode problems implemented in different programming languages.
