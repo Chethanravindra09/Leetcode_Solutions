@@ -28,5 +28,6 @@ public class Leetcode1281 {
         n=sc.nextInt();
         int output =s1.subtractProductAndSum(n);
         System.out.println(output);
+        sc.close();
     }
 }
