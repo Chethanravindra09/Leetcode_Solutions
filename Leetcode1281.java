@@ -1,7 +1,9 @@
+
+
 import java.util.Scanner;
 
-public class Leetcode1281 {
-    static int subtractProductAndSum(int n) {
+class Solution {
+    public int subtractProductAndSum(int n) {
 
         int sum = 0;
         int prod = 1;
@@ -14,13 +16,17 @@ public class Leetcode1281 {
 
         return (prod - sum);
     }
+}
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n;
-        System.out.println("Enter the value of n : ");
-        n = sc.nextInt();
-        int output = subtractProductAndSum(n);
+public class Leetcode1281 {
+
+    public static void main(String[] args){
+        Solution s1= new Solution();
+        Scanner sc= new Scanner(System.in);
+        int n ;
+        System.out.println("Enter the value of n");
+        n=sc.nextInt();
+        int output =s1.subtractProductAndSum(n);
         System.out.println(output);
     }
 }
